@@ -12,7 +12,39 @@
 		EC9710C02CA8695200F26599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9710BF2CA8695200F26599 /* Assets.xcassets */; };
 		EC9710C32CA8695200F26599 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9710C22CA8695200F26599 /* Preview Assets.xcassets */; };
 		EC9710CA2CA86D0500F26599 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9710C92CA86D0500F26599 /* LocationManager.swift */; };
+		EC9710D32CA8762300F26599 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9710D22CA8762300F26599 /* WidgetKit.framework */; };
+		EC9710D52CA8762300F26599 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9710D42CA8762300F26599 /* SwiftUI.framework */; };
+		EC9710D82CA8762300F26599 /* DistanceWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9710D72CA8762300F26599 /* DistanceWidgetBundle.swift */; };
+		EC9710DA2CA8762300F26599 /* DistanceWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9710D92CA8762300F26599 /* DistanceWidgetLiveActivity.swift */; };
+		EC9710DC2CA8762300F26599 /* DistanceWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9710DB2CA8762300F26599 /* DistanceWidget.swift */; };
+		EC9710DE2CA8762300F26599 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9710DD2CA8762300F26599 /* AppIntent.swift */; };
+		EC9710E02CA8762500F26599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9710DF2CA8762500F26599 /* Assets.xcassets */; };
+		EC9710E42CA8762500F26599 /* DistanceWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EC9710D02CA8762300F26599 /* DistanceWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC9710E22CA8762500F26599 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC9710B02CA8695100F26599 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC9710CF2CA8762300F26599;
+			remoteInfo = DistanceWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EC9710E82CA8762500F26599 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EC9710E42CA8762500F26599 /* DistanceWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		EC9710B82CA8695100F26599 /* CoupleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoupleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -21,6 +53,17 @@
 		EC9710BF2CA8695200F26599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC9710C22CA8695200F26599 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC9710C92CA86D0500F26599 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		EC9710CB2CA875E500F26599 /* CoupleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoupleApp.entitlements; sourceTree = "<group>"; };
+		EC9710D02CA8762300F26599 /* DistanceWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DistanceWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9710D22CA8762300F26599 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		EC9710D42CA8762300F26599 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		EC9710D72CA8762300F26599 /* DistanceWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceWidgetBundle.swift; sourceTree = "<group>"; };
+		EC9710D92CA8762300F26599 /* DistanceWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		EC9710DB2CA8762300F26599 /* DistanceWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceWidget.swift; sourceTree = "<group>"; };
+		EC9710DD2CA8762300F26599 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		EC9710DF2CA8762500F26599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC9710E12CA8762500F26599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9710E92CA8763500F26599 /* DistanceWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DistanceWidgetExtension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,13 +74,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC9710CD2CA8762300F26599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9710D52CA8762300F26599 /* SwiftUI.framework in Frameworks */,
+				EC9710D32CA8762300F26599 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		EC9710AF2CA8695100F26599 = {
 			isa = PBXGroup;
 			children = (
+				EC9710E92CA8763500F26599 /* DistanceWidgetExtension.entitlements */,
 				EC9710BA2CA8695100F26599 /* CoupleApp */,
+				EC9710D62CA8762300F26599 /* DistanceWidget */,
+				EC9710D12CA8762300F26599 /* Frameworks */,
 				EC9710B92CA8695100F26599 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				EC9710B82CA8695100F26599 /* CoupleApp.app */,
+				EC9710D02CA8762300F26599 /* DistanceWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,6 +109,7 @@
 		EC9710BA2CA8695100F26599 /* CoupleApp */ = {
 			isa = PBXGroup;
 			children = (
+				EC9710CB2CA875E500F26599 /* CoupleApp.entitlements */,
 				EC9710BB2CA8695100F26599 /* CoupleAppApp.swift */,
 				EC9710BD2CA8695100F26599 /* CoupleView.swift */,
 				EC9710C92CA86D0500F26599 /* LocationManager.swift */,
@@ -70,6 +127,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		EC9710D12CA8762300F26599 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC9710D22CA8762300F26599 /* WidgetKit.framework */,
+				EC9710D42CA8762300F26599 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC9710D62CA8762300F26599 /* DistanceWidget */ = {
+			isa = PBXGroup;
+			children = (
+				EC9710D72CA8762300F26599 /* DistanceWidgetBundle.swift */,
+				EC9710D92CA8762300F26599 /* DistanceWidgetLiveActivity.swift */,
+				EC9710DB2CA8762300F26599 /* DistanceWidget.swift */,
+				EC9710DD2CA8762300F26599 /* AppIntent.swift */,
+				EC9710DF2CA8762500F26599 /* Assets.xcassets */,
+				EC9710E12CA8762500F26599 /* Info.plist */,
+			);
+			path = DistanceWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,15 +159,34 @@
 				EC9710B42CA8695100F26599 /* Sources */,
 				EC9710B52CA8695100F26599 /* Frameworks */,
 				EC9710B62CA8695100F26599 /* Resources */,
+				EC9710E82CA8762500F26599 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EC9710E32CA8762500F26599 /* PBXTargetDependency */,
 			);
 			name = CoupleApp;
 			productName = CoupleApp;
 			productReference = EC9710B82CA8695100F26599 /* CoupleApp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		EC9710CF2CA8762300F26599 /* DistanceWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9710E52CA8762500F26599 /* Build configuration list for PBXNativeTarget "DistanceWidgetExtension" */;
+			buildPhases = (
+				EC9710CC2CA8762300F26599 /* Sources */,
+				EC9710CD2CA8762300F26599 /* Frameworks */,
+				EC9710CE2CA8762300F26599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DistanceWidgetExtension;
+			productName = DistanceWidgetExtension;
+			productReference = EC9710D02CA8762300F26599 /* DistanceWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -101,6 +199,9 @@
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					EC9710B72CA8695100F26599 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EC9710CF2CA8762300F26599 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
@@ -119,6 +220,7 @@
 			projectRoot = "";
 			targets = (
 				EC9710B72CA8695100F26599 /* CoupleApp */,
+				EC9710CF2CA8762300F26599 /* DistanceWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +232,14 @@
 			files = (
 				EC9710C32CA8695200F26599 /* Preview Assets.xcassets in Resources */,
 				EC9710C02CA8695200F26599 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9710CE2CA8762300F26599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9710E02CA8762500F26599 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +256,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC9710CC2CA8762300F26599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9710DA2CA8762300F26599 /* DistanceWidgetLiveActivity.swift in Sources */,
+				EC9710DE2CA8762300F26599 /* AppIntent.swift in Sources */,
+				EC9710D82CA8762300F26599 /* DistanceWidgetBundle.swift in Sources */,
+				EC9710DC2CA8762300F26599 /* DistanceWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC9710E32CA8762500F26599 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC9710CF2CA8762300F26599 /* DistanceWidgetExtension */;
+			targetProxy = EC9710E22CA8762500F26599 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		EC9710C42CA8695200F26599 /* Debug */ = {
@@ -271,8 +400,10 @@
 		EC9710C72CA8695200F26599 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CoupleApp/CoupleApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoupleApp/Preview Content\"";
@@ -300,8 +431,10 @@
 		EC9710C82CA8695200F26599 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CoupleApp/CoupleApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoupleApp/Preview Content\"";
@@ -326,6 +459,62 @@
 			};
 			name = Release;
 		};
+		EC9710E62CA8762500F26599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = DistanceWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7VDAK3AXN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DistanceWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DistanceWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enestalhaucar.CoupleApp.DistanceWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC9710E72CA8762500F26599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = DistanceWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7VDAK3AXN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DistanceWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DistanceWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enestalhaucar.CoupleApp.DistanceWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -343,6 +532,15 @@
 			buildConfigurations = (
 				EC9710C72CA8695200F26599 /* Debug */,
 				EC9710C82CA8695200F26599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9710E52CA8762500F26599 /* Build configuration list for PBXNativeTarget "DistanceWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9710E62CA8762500F26599 /* Debug */,
+				EC9710E72CA8762500F26599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
