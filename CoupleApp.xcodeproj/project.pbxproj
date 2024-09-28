@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		EC9710BC2CA8695100F26599 /* CoupleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9710BB2CA8695100F26599 /* CoupleAppApp.swift */; };
-		EC9710BE2CA8695100F26599 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9710BD2CA8695100F26599 /* ContentView.swift */; };
+		EC9710BE2CA8695100F26599 /* CoupleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9710BD2CA8695100F26599 /* CoupleView.swift */; };
 		EC9710C02CA8695200F26599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9710BF2CA8695200F26599 /* Assets.xcassets */; };
 		EC9710C32CA8695200F26599 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9710C22CA8695200F26599 /* Preview Assets.xcassets */; };
+		EC9710CA2CA86D0500F26599 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9710C92CA86D0500F26599 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EC9710B82CA8695100F26599 /* CoupleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoupleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9710BB2CA8695100F26599 /* CoupleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoupleAppApp.swift; sourceTree = "<group>"; };
-		EC9710BD2CA8695100F26599 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC9710BD2CA8695100F26599 /* CoupleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoupleView.swift; sourceTree = "<group>"; };
 		EC9710BF2CA8695200F26599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC9710C22CA8695200F26599 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC9710C92CA86D0500F26599 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				EC9710BB2CA8695100F26599 /* CoupleAppApp.swift */,
-				EC9710BD2CA8695100F26599 /* ContentView.swift */,
+				EC9710BD2CA8695100F26599 /* CoupleView.swift */,
+				EC9710C92CA86D0500F26599 /* LocationManager.swift */,
 				EC9710BF2CA8695200F26599 /* Assets.xcassets */,
 				EC9710C12CA8695200F26599 /* Preview Content */,
 			);
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC9710BE2CA8695100F26599 /* ContentView.swift in Sources */,
+				EC9710BE2CA8695100F26599 /* CoupleView.swift in Sources */,
 				EC9710BC2CA8695100F26599 /* CoupleAppApp.swift in Sources */,
+				EC9710CA2CA86D0500F26599 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
